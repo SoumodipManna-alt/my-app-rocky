@@ -1,0 +1,88 @@
+#root{
+ text-align: center;
+ 
+}
+
+.navbar{
+ text-align: right;
+ margin-right: 20px;
+ 
+}
+.navbar li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+.navbarlink{
+    
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+.navbarlink:hover{
+    
+    background-color: rgb(0, 51, 255);
+    /*  */
+    border-color: rgb(31, 89, 238);
+    color: white;
+}
+.navbarlink.active{
+    background-color: rgba(0, 51, 255, 0.782);
+    /*  */
+    border-color: rgb(31, 89, 238);
+    color: white;
+}
+/* Courses Dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px;
+    color: black;
+}
+
+.dropbtn:hover {
+    color: rgb(0, 51, 255);
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1;
+    padding: 0;
+}
+
+.dropdown-content li {
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+}
+
+.dropdown-content li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 8px;
+}
+
+.dropdown-content li:hover {
+    background-color: rgb(240, 240, 240);
+}
+.dropdown.active{
+    background-color: rgba(0, 51, 255, 0.782);
+    /*  */
+    border-color: rgb(31, 89, 238);
+    color: white;
+}
